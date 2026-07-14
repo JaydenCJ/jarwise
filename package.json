@@ -2,7 +2,7 @@
   "name": "jarwise",
   "version": "0.1.0",
   "description": "Explains Set-Cookie behavior — SameSite, Secure, Domain scoping, and redirect survival — by implementing the cookie RFC as an explainable, offline simulator.",
-  "author": "JaydenCJ",
+  "author": "JaydenCJ <aisingioro.kiyon@gmail.com>",
   "license": "MIT",
   "type": "module",
   "bin": {
