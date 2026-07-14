@@ -1,0 +1,14 @@
+{
+  "initiator": "https://app.example.test/",
+  "kind": "navigation",
+  "method": "POST",
+  "chain": [
+    {
+      "url": "https://app.example.test/login",
+      "status": 303,
+      "setCookies": ["__Host-sid=7f3a2c; Secure; HttpOnly; Path=/; SameSite=Lax"]
+    },
+    { "url": "https://app.example.test/dashboard" }
+  ],
+  "expect": ["__Host-sid"]
+}

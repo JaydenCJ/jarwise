@@ -1,0 +1,13 @@
+{
+  "seed": [
+    { "url": "https://app.example.test/login", "setCookie": "session=e91bd0; Secure; HttpOnly; Path=/" }
+  ],
+  "initiator": "https://idp.example/",
+  "kind": "navigation",
+  "method": "POST",
+  "chain": [
+    { "url": "https://app.example.test/sso/callback", "status": 303 },
+    { "url": "https://app.example.test/home" }
+  ],
+  "expect": ["session"]
+}

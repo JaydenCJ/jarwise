@@ -1,0 +1,12 @@
+{
+  "kind": "navigation",
+  "chain": [
+    {
+      "url": "https://shop.example.test/checkout",
+      "status": 302,
+      "setCookies": ["cart=widget-42; Secure; Path=/", "theme=dark; Path=/"]
+    },
+    { "url": "http://shop.example.test/legacy/receipt" }
+  ],
+  "expect": ["cart", "theme"]
+}
